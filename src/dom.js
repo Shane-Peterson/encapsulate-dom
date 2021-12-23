@@ -57,7 +57,7 @@ window.dom = {
     if (arguments.length === 2) {
       node.innerHTML = string;
     } else if (arguments.length === 1) {
-      return node.innerText;
+      return node.innerHTML;
     }
   },
   style(node, name, value) {
